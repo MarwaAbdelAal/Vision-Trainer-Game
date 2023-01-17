@@ -41,6 +41,7 @@ function start() {
   startBtn.style.display = 'none';
   wrongIcon.style.display = 'none';
   rightIcon.style.display = 'none';
+  chessImg.style.cursor = 'pointer';
   const timer = setInterval(() => {
     let seconds = Number(timerTag.innerHTML.split(':')[1]);
     seconds -= 1;
