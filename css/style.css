@@ -10,16 +10,18 @@ body{
 .container{
     height: 800px;
     padding: 20px;
-    /* border: 3px solid #7b7b7b; */
 }
 .child{
-    width: 50%;
+    width: 60%;
     float: left;
     padding: 20px;
-    /* border: 2px solid #676767; */
+}
+.child:nth-child(2){
+    width: 40%;
+    float: right;
 }
 .chessImg{
-    width: 100%;
+    width: 700px;
     height: 700px;
 }
 .vision{
@@ -50,6 +52,32 @@ body{
 .score{
     color: white;
     font-size: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+.timer{
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.target{
+    color: white;
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+.wrong{
+    color: red;
+    font-size: 20px;
+}
+.icons{
+    font-size: 60px;
     width: 100%;
     text-align: center;
     padding: 20px;

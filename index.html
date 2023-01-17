@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Vision Game</title>
   </head>
   <body>
@@ -14,10 +15,17 @@
       </div>
       <div class="child">
         <div class="vision">Vision</div>
-        <div class="score">0</div>
+        <div class="score">Score: <span id="scoreSpan">0</span></div>
+        <div class="timer"><i class="fa fa-clock-o" style="font-size:40px; color:white;"></i>
+          <span id="timerId">0:30</span></div>
+        <div class="target"></div>
+        <div class="icons">
+          <i class="fa fa-check-circle right" style="color:green; display: none;"></i>
+          <i class="fa fa-times wrong" style="color:red; display: none;"></i>
+        </div>
         <button class="startBtn" type="submit" value="start">Start</button>
       </div>
     </div>
-    <script src="chess.js"></script>
+    <script src="./js/chess.js"></script>
   </body>
 </html>
