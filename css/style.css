@@ -35,8 +35,7 @@ body{
 .startBtn{
     padding: 20px;
     width: 100%;
-    /* background-color: #7d945d; */
-    background-color: red;
+    background-color: #7d945d;
     color: #eeeed5;
     font-size: 32px;
     border-radius: 30px;
